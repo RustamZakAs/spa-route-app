@@ -1,13 +1,107 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #313131;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.smoothscroll {
+  color: aliceblue;
+}
+
+.color {
+    color: #F06000;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+* {
+  color: aliceblue;
+}
+
+header {
+  min-height: 10vh;
+  position: sticky;
+  top: 0;
+}
+
+nav {
+  background-color: #313131;
+  /* border: 2px solid yellowgreen; */
+  border-radius: 0  0 10px 10px;
+}
+
+main {
+  min-height: 80vh;
+  background-color: #ccc;
+  padding: 10px;
+}
+
+footer {
+  min-height: 10vh;
+  padding: 10px;
+}
+
+.bars {
+  float: left;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+  height: 80vh;
+}
+.bars .skills {
+  margin-top: 36px;
+  list-style: none;
+}
+.bars li {
+  position: relative;
+  margin-bottom: 60px;
+  background: #ccc;
+  height: 42px;
+  border-radius: 3px;
+}
+.bars li em {
+  font: 15px "opensans-bold", sans-serif;
+  color: #313131;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: normal;
+  position: relative;
+  top: -36px;
+}
+.bar-expand {
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  margin: 0;
+  padding-right: 24px;
+  background: #313131;
+  display: inline-block;
+  height: 42px;
+  line-height: 42px;
+  border-radius: 3px 0 0 3px;
+}
+
+.css {
+  width: 60%;
+  -moz-animation: css 2s ease;
+  -webkit-animation: css 2s ease;
+}
+.html5 {
+  width: 70%;
+  -moz-animation: html5 2s ease;
+  -webkit-animation: html5 2s ease;
+}
+.reactjs {
+    width: 50%;
+  -moz-animation: reactjs 2s ease;
+  -webkit-animation: reactjs 2s ease;
+}
+.javascript {
+    width: 65%;
+  -moz-animation: reactjs 2s ease;
+  -webkit-animation: reactjs 2s ease;
 }
